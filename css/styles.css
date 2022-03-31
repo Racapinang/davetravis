@@ -98,11 +98,13 @@ p {
 
 .text-primary {
     color: #9c27b0;
+    text-shadow: 1px 1px 1px rgba(194, 191, 191, 0.5);
 }
 
 .text-primarys {
     padding: 200px 0 0 0;
     color: #9c27b0;
+    text-shadow: 1px 1px 1px rgba(194, 191, 191, 0.5);
 }
 
 .modal-content {
