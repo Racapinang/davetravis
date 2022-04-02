@@ -84,7 +84,11 @@
                             - Dave
                         </p>
                     </p>
-                    <a href="#two" class="btn btn-default btn-xl page-scroll">Lanjutkeun</a>
+                    <a href="#" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl" onclick="toggle()">Video Spesial</a> &nbsp; <a href="#two" class="btn btn-default btn-xl page-scroll">Lanjutkeun</a>
+                </div>
+		<div class="trailer">
+                    <video src="photo/galeri/vid.mp4" controls="true" autoplay="none"></video>
+                    <img src="photo/close.png" alt="" class="close" onclick="toggle()">
                 </div>
             </div>
         </div>
@@ -1547,6 +1551,12 @@
                 borderRadius: '5px',
             }
         })
+    </script>
+    <script> type="text/javascript"
+        function toggle(){
+            var trailer= document.querySelector(".trailer")
+            trailer.classList.toggle("active")
+        }
     </script>
        
   </body>
