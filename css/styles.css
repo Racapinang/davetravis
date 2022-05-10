@@ -522,6 +522,39 @@ img::-moz-selection {
 
 /** KODEKU MULAI DISINI */
 
+/* BUAT TOOLTIP ~~EHEHEHEH~~*/
+
+
+.containerz {
+    line-height: 1.5;
+    margin: 1rem;
+    padding: 40px 25px;
+}
+  
+abbr {
+    font-style: italic;
+    position: relative;
+    color: #111;
+    font-size: 18px;
+    text-decoration: none;
+}
+  
+abbr:hover::after {
+    background: #add8e6;
+    border-radius: 4px;
+    bottom: 100%;
+    content: attr(title);
+    display: block;
+    left: 100%;
+    padding: 1em;
+    position: absolute;    
+    width: fit-content;
+    z-index: 1;
+}
+
+
+/* BUAT TOOLTIP ~~EHEHEHEH~~*/
+
 .pedeoh
 {
     display: inline-flex;
