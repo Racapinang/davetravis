@@ -706,6 +706,12 @@ abbr:hover::after {
     max-width: 40px;
 }
 
+.casss
+{
+    align-items: center;
+    padding-left: 30px;
+}
+
 .kontainer
 {
     position: relative;
