@@ -109,6 +109,8 @@ p {
 
 .modal-content {
     background-color: #1d1d1d;
+    margin-right: 1000px;
+    width:fit-content;
 }
 
 section {
