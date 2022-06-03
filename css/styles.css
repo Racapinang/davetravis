@@ -951,6 +951,12 @@ abbr:hover::after {
 
 /*juga kodeku*/
 
+.alabaster
+{
+    width: 720px;
+    text-align: left;
+}
+
 .textgaleri
 {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
